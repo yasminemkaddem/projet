@@ -1,0 +1,183 @@
+main {
+  min-height: 80vh;
+  background-color: rgb(245, 243, 243);
+  
+}
+.loginContainer {
+  background: linear-gradient( rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5) ), 
+  url(https://images.pexels.com/photos/6984650/pexels-photo-6984650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.loginContainerregister{
+  
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://images.pexels.com/photos/6984661/pexels-photo-6984661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+      center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.loginContainerfooter{
+  flex: 1;
+  padding: 20px;
+  background-color: rgb(252, 221, 243);
+}
+
+.loginContainerpayment {
+  height: 100vh;
+  background: linear-gradient(
+      rgba(247, 245, 246, 0.856),
+      rgb(245, 222, 237)
+    ),
+    url("https://t3.ftcdn.net/jpg/01/17/33/22/360_F_117332203_ekwDZkViF6M3itApEFRIH4844XjJ7zEb.jpg")
+      center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.loginContainershipping{
+  height: 100vh;
+  background: linear-gradient(
+      rgba(247, 243, 246, 0.5),
+      rgb(241, 226, 238)
+    ),
+    url("https://t3.ftcdn.net/jpg/03/36/19/00/360_F_336190098_MYMCPTCH7SovCjAUNBMavQy3DirKwbp9.jpg")
+      center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+
+.navbar {
+  background-color: rgb(252, 221, 243) !important;
+  border-radius: 1px;
+}
+.form {
+  width: 84%;
+}
+.loginContainerprofile{
+  height: 100vh;
+  background: linear-gradient(
+      rgba(250, 250, 250, 0.5),
+      rgb(238, 227, 235)
+    ),
+    url("data:image/jpeg;base64,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")
+      center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.btn-outline-success {
+  color: rgb(99, 93, 93) !important;
+  border-color: rgb(187, 177, 177) !important;
+}
+.loginContairelisteproduct{
+  height: 100vh;
+  background: linear-gradient(
+      rgba(250, 250, 250, 0.5),
+      rgb(238, 227, 235)
+    ),
+    url("https://previews.123rf.com/images/ardely/ardely1808/ardely180800017/105753831-abstract-stained-pattern-texture-square-background-cute-baby-pink-color-modern-painting-art-watercol.jpg")
+      center;
+}
+
+
+.btn-outline-success:hover {
+ background-color: grey;
+
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+.rating span {
+  margin: 0.1rem;
+  background-color: rgb(253, 215, 243);
+  
+}
+
+
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: rgb(88, 86, 86);
+}
+
+.carousel img {
+  padding: 10px;
+  margin: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 500px;
+}
+.carousel {
+  background-color:rgb(245, 245, 245);
+}
+
+
+
+.carousel-indicators li {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 30px;
+  height: 3px;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: rgb(221, 64, 156);
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: .5;
+  transition: opacity 0.5 ease;
+}
+
+.carousel a {
+  margin: 0 auto;
+
+}
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+  
+}
